@@ -311,7 +311,7 @@
     }
 
     .footer-bkg-call a {
-      color: #ffffff!important;
+      color: #ffffff !important;
       font-family: Arial, Helvetica, sans-serif;
       font-style: normal;
       font-weight: 700;
@@ -454,23 +454,28 @@
       line-height: 16px;
       color: #1D1B1F;
     }
+
     .list-items {
-      list-style: none; 
+      /* list-style: none;  */
       margin: 0;
       padding: 0 0 0 20px;
     }
+
     .list-items li {
-      margin: 0 0 16px 0!important;
-    }
-    .list-items li::before {
-      content: "\2022";
+      margin: 0 0 16px 0 !important;
       font-size: 20px;
-      color:#AA0061;
+      color: #AA0061;
+    }
+
+    .list-items li::before {
+      /* content: "\2022"; */
+      font-size: 20px;
+      color: #AA0061;
       font-weight: bold;
       display: inline-block;
       width: 5px;
       margin: 0 5px 0 -15px;
-    } 
+    }
   </style>
 </head>
 
@@ -561,23 +566,34 @@
                                     <tr>
                                       <td
                                         style="font-family:Arial, Helvetica, sans-serif; text-align: left; font-size:14px; line-height: 18px; color:#1D1B1F; font-weight: normal; ">
-                                        <ul class="list-items">
+                                        <ul class="list-items"
+                                          style="margin:0; margin-left: 25px; padding:0; font-family: Arial, sans-serif; color:#495055; font-size:16px; line-height:22px;"
+                                          align="left" type="disc">
                                           <li>
-                                            You will need to re-register if you
-                                            want to use the app
+                                            <span
+                                              style="font-family:Arial, Helvetica, sans-serif; text-align: left; font-size:14px; line-height: 18px; color:#1D1B1F; font-weight: normal; ">
+                                              You will need to re-register if you
+                                              want to use the app
+                                          </span>
                                           </li>
                                           <li>
-                                            App account deletion will take up to 10
-                                            working days to process.
+                                            <span style="font-family:Arial, Helvetica, sans-serif; text-align: left; font-size:14px; line-height: 18px; color:#1D1B1F; font-weight: normal; ">
+                                              App account deletion will take up to 10
+                                              working days to process.
+                                            </span>
                                           </li>
                                           <li>
-                                            Some of your information will be kept
-                                            for legal reasons (please see our <a href="#" style="color:#AA0061;">privacy
-                                              policy for more information</a>)
+                                            <span style="font-family:Arial, Helvetica, sans-serif; text-align: left; font-size:14px; line-height: 18px; color:#1D1B1F; font-weight: normal; ">
+                                              Some of your information will be kept
+                                              for legal reasons (please see our <a href="#" style="color:#AA0061;">privacy
+                                                policy for more information</a>)
+                                            </span>
                                           </li>
                                           <li>
-                                            Personal data, medical data, and order
-                                          history data held by Convatec will be retained.
+                                            <span style="font-family:Arial, Helvetica, sans-serif; text-align: left; font-size:14px; line-height: 18px; color:#1D1B1F; font-weight: normal; ">
+                                              Personal data, medical data, and order
+                                              history data held by Convatec will be retained.
+                                            </span>
                                           </li>
                                         </ul>
                                       </td>
