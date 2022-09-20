@@ -461,6 +461,30 @@
       line-height: 16px;
       color: #1D1B1F;
     }
+
+    .product-block-order {
+      background: #fff;
+      padding: 12px;
+      border-radius: 8px;
+    }
+    .product-block-order > span {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 16px;
+      color: #666666;
+      margin: 0 0 8px 0;
+      display: block;
+    }
+    .product-order-table {
+      padding: 20px 12px;
+      background: #F5F5F5;
+      border-radius: 8px;
+      margin: 0 0 8px 0!important;
+    }
+    .product-order-table td {
+      vertical-align: top;
+    }
   </style>
 </head>
 
@@ -535,13 +559,13 @@
                         </strong>
                         <div style="line-height: 16px;">&nbsp;</div>
                         <p>Your nurse has placed an order on your behalf for a stoma sample product. Our clinical support team will review it and will contact you to check everything is right for you.</p>
-                        <p style="padding:16px 0 0 0"> You are also registered for helpful post-surgery support.</p>
+                        <p style="padding:16px 0 0 0"> You are also registered for helpful post-surgery support, and our stoma prescription delivery service.</p>
                         <p style="padding:16px 0 0 0">The following items will be shipped to you at the address provided (see below).</p>
                       </td>
                     </tr>
                     <tr>
                       <td class="l-txt"
-                        style="font-family: Arial, helvetica, sans-serif; font-size: 13px; line-height: 18px; font-weight:800;color:  #AA0061; text-align: left;font-weight: 500;padding:0 16px 0 16px">
+                        style="font-family: Arial, helvetica, sans-serif; font-size: 13px; line-height: 18px; font-weight:800;color:  #AA0061; text-align: left;font-weight: 500;padding:6px 16px 0 16px">
                         <strong>STOMA PRODUCTS ORDERED</strong>
                       </td>
                     </tr>
@@ -556,23 +580,28 @@
                                   style=" border-radius: 20px;font-family: Arial, helvetica, sans-serif">
                                   <tbody>
                                     <tr>
-                                      <td style="padding:0">
-                                        <div class="product-order">
+                                      <td style="padding: 0;">
+                                        <div class="product-block-order">
                                           <span>1-piece system</span>
-                                          <div class="product-order-cont">
-                                            <img src="images/img_product.png">
-                                            <div class="product-order-block">
-                                              <a href="#">ActiveLife® One-Piece Urostomy Pouch With Durahesive® Skin
-                                                Barrier & Accuseal® Tap</a>
-                                              <div class="product-order-text">
-                                                <span class="qty">123456</span>
-                                                <span class="measurament">1 1/2”</span>
-                                                <span class="clear">Clear</span>
-                                              </div>
-                                            </div>
-                                          </div>
+                                          <table class="product-order-table" width="100%" border="0" cellspacing="0">
+                                            <tbody>
+                                              <tr>
+                                                <td style="font-family: Arial, helvetica, sans-serif; font-size: 14px; line-height: 40px; font-weight:700; text-align: left;">
+                                                  <img src="images/img_product.png"  style="margin: 10px 0 10px 10px;">
+                                                </td>
+                                                <td style="font-family: Arial, helvetica, sans-serif; font-size: 14px; line-height: 40px; font-weight:400;text-align:left; padding: 10px 10px;">
+                                                  <span style="font-style: normal; font-weight: 700;font-size: 14px;line-height: 18px;color: #1D1B1F; text-decoration: none; text-align: left;">ActiveLife® One-Piece Urostomy Pouch With Durahesive® Skin Barrier & Accuseal® Tap</span>
+                                                  <div class="product-order-table-text">
+                                                    <span style="font-style: normal;font-weight: 400;font-size: 11px;line-height: 12px;color: #1D1B1F;padding: 7px 8px;margin: 0 2px;" class="qty">123456</span> 
+                                                    <span style="border: 2px solid rgba(29, 27, 31, 0.16);border-radius: 4px;font-style: normal;font-weight: 700;font-size: 10px;line-height: 12px;color: #1D1B1F;padding: 7px 8px;margin: 0 2px;" class="measurament">1 1/2”</span> 
+                                                    <span style="border: 2px solid rgba(29, 27, 31, 0.16);border-radius: 4px;font-style: normal;font-weight: 700;font-size: 10px;line-height: 12px;color: #1D1B1F;padding: 7px 8px;margin: 0 2px;" class="clear">Clear</span> 
+                                                  </div>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
                                         </div>
-                                      </td>
+                                       </td>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -598,6 +627,24 @@
                                     in one place.</span>
                                 </div>
                                 </div>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td style="padding:0 16px 16px 16px;border-radius: 20px;font-family: Arial, helvetica, sans-serif"">
+                                <div class="block-qoute">
+                                  <div class="block-qoute-header">
+                                    <img src="images/amcare.png">
+                                  </div>
+                                  <div class="block-qoute-body">
+                                    <p>Amcare™ stoma prescription delivery</p>
+                                    <span>Rapid, no-hassle delivery service and lifelong support from our dedicated and
+                                      friendly team of stoma and
+                                      continence
+                                      specialists.</span>
+                                  </div>
+                                </div>
+
                               </td>
                             </tr>
                             <tr>
@@ -679,7 +726,7 @@
                             </tr
                             <tr>
                               <td class="l-txt"
-                                style="font-family: Arial, helvetica, sans-serif; font-size: 13px; line-height: 18px; font-weight:800;color:  #AA0061; text-align: left;padding:0px 16px 12.5px 16px">
+                                style="font-family: Arial, helvetica, sans-serif; font-size: 13px; line-height: 18px; font-weight:800;color:  #AA0061; text-align: left;padding:30px 16px 16px 16px">
                                 <strong>YOUR NURSE DETAILS</strong>
                               </td>
                             </tr>
@@ -733,7 +780,7 @@
                             <table class="" width="100%" border="0" cellspacing="0">
                               <tr>
                                 <td class="l-txt"
-                                  style="font-family: Arial, helvetica, sans-serif; font-size: 13px; line-height: 18px; font-weight:800;color:  #AA0061; text-align: left;padding:16px 0 0 16px">
+                                  style="font-family: Arial, helvetica, sans-serif; font-size: 13px; line-height: 18px; font-weight:800;color:  #AA0061; text-align: left;padding:16px 16px 0 16px">
                                   <strong>NEED MORE HELP?</strong>
                                 </td>
                               </tr>
